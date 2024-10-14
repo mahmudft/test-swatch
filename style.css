@@ -1,0 +1,60 @@
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: white;
+}
+.poopings-font {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+container {
+    display: block;
+    background-color: black;
+    min-height: 50vh;
+}
+
+navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 10px;
+}
+
+navbar > div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 14px;
+}
+
+.navbar-mid{
+    display: flex;
+    flex-direction: row;
+    gap: 27px;
+}
+
+.navbar-start{
+    gap: 2px;
+}
+
+.main-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+.main-section  .section_text_header{
+    white-space: pre-wrap;
+    font-weight: 700;
+    font-style: bold;
+    font-size: 40px;
+}
+
